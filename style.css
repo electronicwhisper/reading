@@ -23,8 +23,8 @@ h3 {
   font-size: 1em;
   font-weight: 500;
   color: #ccc;
-  text-align: center;
-  margin: 1.5em;
+  /*text-align: center;*/
+  margin: 1.5em 0;
 }
 
 #container {
@@ -39,4 +39,8 @@ p {
 a {
   text-decoration: none;
   color: #093;
+}
+
+.comments {
+  color: #ccc;
 }
