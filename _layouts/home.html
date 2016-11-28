@@ -1,0 +1,14 @@
+<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<div id="container">
+
+<h1>Reading</h1>
+
+{% for post in site.posts %}
+  <p>
+    <a href="{{ post.url }}">{{ post.title }}</a> {{ post.author }}
+  </p>
+{% endfor %}
+
+</div>
